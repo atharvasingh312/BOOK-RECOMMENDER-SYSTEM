@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOK RECOMENDER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+</head>
+<style>
+    nav.navbar{
+    color:white;
+    }
+    p{
+    margin:0;
+    }
+    img{
+    allign:center;
+    height:50%;
+    width:50%;
+    }
+</style>
+<body style="background-color:#e3f6f5" img="" >
+<nav class="navbar" style="background-color:#222831">
+    <p class="navbar-brand" >BOOKS FOR YOU</p>
+    <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/recommend">Recommend</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Books Recommendation</h1>
+        </div>
+        <form action="/recommend_books", method="post">
+            <input name="user_input" type="text" class="form control-lg">
+            <hr>
+            <input type="submit" class="btn btn-lg btn-warning">
+        </form>
+        <hr>
+    </div>
+    <div>
+        <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/08/25-Outstanding-404-Page-Examples-You-Have-to-See.png">
+    </div>
+</div>
+</body>
+</html>
