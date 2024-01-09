@@ -11,7 +11,9 @@ Welcome to the Book Recommender System project! This end-to-end machine learning
 
 ## Demo
 
-https://github.com/atharvasingh312/Book-Recommender-System/assets/111992277/ed4c23dd-57e6-46e9-ada4-0ec06866e492
+https://github.com/atharvasingh312/Book-Recommender-System/assets/111992277/561cd4b1-8f51-44a6-9153-0fb6ad2bfb31
+
+
 <center><bold>video of working model of the book recommender</bold></center>
 
 ## Deployment
